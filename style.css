@@ -1,10 +1,17 @@
 h1 {
-    font-size: 24px;
-    color: #333333;
-    margin: 20px;
-  }
-  main {
-    font-size: 20px;
-    color: #333333;
-    margin: 20px;
-  }
+  font-size:50px;
+  color:blue
+  background-color:skyblue
+  margin-top:29px;
+}
+bbody {
+  font-size:35px;
+  background-color:skyblue;
+  color:blue
+}
+.message-container {
+  width: 300px;
+}
+.message-area {
+  height: 200px;
+}
