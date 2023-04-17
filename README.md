@@ -1,1 +1,1 @@
-# Personal-website includes three pages: home page, about page, and portfolio page.
+# Personal-website includes five pages: home page,,mission page about page,portfolio page and contact me page.
