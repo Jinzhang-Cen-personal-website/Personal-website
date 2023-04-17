@@ -1,72 +1,67 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Contact Ne</title>
-    <Link  rel="stylesheet" href="style.css"> 
-        <style>
-            h1 {
-              font-size:50px;
-              color:blue
-              background-color:skyblue
-              margin-top:29px;
-            }
-            body {
-              font-size:35px;
-              background-color:skyblue;
-              color:blue
-            }
-            header {
-                font-size:50px;
-                color:blue;
-                background-color:skyblue;
-            }
-            .message {
-                width:600px;
-            }
-          </style>
-  </head>
-  <header>Contact Me</header>
-  <body>
-    <p>Please reach out to me if I can do something valuable for you.</p>
-    <p>Please leave your contact information and message so I can get back to you asap!</p>
-    <form action="http://localhost:52330/Home%20page.html">
-     <div>
-        <label for="first name">First Name:</label>
-        <input type="text" name="firstname" placeholder="firat Name" id="firstname">
-        <label for="last name">Last Name:</label>
-        <input type="text" name="lastname" placeholder="last Name" id="lastname">
 
-     </div>
-     <div>
-        <label for="email">Email:</label>
-        <input type="text" name="email" placeholder="email" id="email">
-        <label for="phonenumber">Phone Number:</label>
-        <input type="num" name="phonenumber" placeholder="phone number" id="phonenumber">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width" />
+   <title>Contact Ne</title>
+   <Link rel="stylesheet" href="style.css">
+   <style>
+      h1 {
+         font-size: 50px;
+         color: blue;
+         background-color: skyblue;
+         margin-top: 29px;
+      }
 
-     </div>
-     <div>
-        <label for="linkedin">Linkedin:</label>
-        <input type="text" name="linkedin" placeholder="linkedin" id="linkedin">
-        <label for="github">github:</label>
-        <input type="text" name="github" placeholder="github" id="github">
-     </div>
-     
-     <message>
-        <label for="message">Message:</label>
-        
-        <div class="message-container">
+      body {
+         font-size: 35px;
+         background-color: skyblue;
+         color: blue
+      }
+
+      header {
+         font-size: 50px;
+         color: blue;
+         background-color: skyblue;
+      }
+
+      .message {
+         width: 600px;
+      }
+   </style>
+</head>
+<header>Contact Me</header>
+
+<body>
+   <p>Please reach out to me if I can do something valuable for you.</p>
+   <p>Please leave your contact information and message so I can get back to you asap!</p>
+   <form action="http://localhost:52330/Home%20page.html">
+      <div class="form">
+         <label for="first name">First Name:</label>
+         <input type="text" name="firstname" placeholder="firat Name">
+         <label for="last name">Last Name:</label>
+         <input type="text" name="lastname" placeholder="last Name">
+         <br>
+         <label for="email">Email:</label>
+         <input type="text" name="Email" placeholder="Email">
+         <label for="phonenumber">Phone Number:</label>
+         <input type="num" name="phonenumber" placeholder="phone number">
+         <br>
+         <label for="linkedin">Linkedin:</label>
+         <input type="text" name="linkedin" placeholder="linkedin">
+         <label for="github">Github:</label>
+         <input type="text" name="Github" placeholder="Github">
+         <br>
+         <label for="message">Message:</label>
+         <div class="message-container">
             <textarea class="message-area"></textarea>
-        </div>
-     </message>
-     <div>
-        <label for="submit">Submit:</label>
-        
-        <button>Submit</button>
+            <br>
+            <label for="submit">Submit:</label>
+            <button>Submit</button>
+         </div>
+         <img src="photo6.jpg" alt="Thank you">
 
-     </div>
-     <img src="photo6.jpg" alt="Thank you">
-  
-  </body>
+</body>
+
 </html>
